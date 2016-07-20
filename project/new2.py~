@@ -1,0 +1,29 @@
+
+
+import csv
+#import MySQLdb
+import os
+
+# Open database connection
+#db = MySQLdb.connect("localhost","root","django","complaint_registration" )
+
+# prepare a cursor object using cursor() method
+#cursor = db.cursor()
+
+# Prepare SQL query to INSERT a record into the database.
+
+
+ch=0;
+
+
+with open('geartweet.csv','rb') as f:
+	reader=csv.reader(f)
+	for row in reader:
+		
+
+
+#f ch=0:
+	#os.remove('sky.csv')
+
+
+####RUNNING##############

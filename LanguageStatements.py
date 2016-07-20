@@ -1,0 +1,2 @@
+CHAT_RESPONSES1 = ["Will you please state the location","Can we know where the problem is encountered ","We would like to know the place you tweeted about","Please tweet us your location","Please add some more information about the location of problem"]
+CHAT_RESPONSES2 = ["Please give us your contact number","How can we contact you","We would like to talk to you please provide us your contact","will you bless us with your contact number"]

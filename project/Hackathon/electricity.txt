@@ -1,0 +1,17 @@
+power
+failure
+transformer
+load
+shedding
+current
+blackout
+grid
+station
+generator
+line
+lamp_post
+voltage
+spark
+transformers
+sparks
+short_circuit

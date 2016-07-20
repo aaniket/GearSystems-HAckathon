@@ -1,0 +1,15 @@
+flood
+floodwater
+logging
+water
+pipe
+drain
+sewage
+septic_tank
+pani
+drainage
+leak
+leaking
+river
+sea
+

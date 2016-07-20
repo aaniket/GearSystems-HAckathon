@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    {% include 'head_css.html' %}
+    <title>{% block head_title %}{% endblock %}MVP LEARNING</title>
+  </head>
+
+  <body>
+
+    {% include 'navbar.html' %}
+    <div class="container">
+
+    {% block content %}
+      <div class="jumbotron">
+       <div class="col-sm-6">
+      <iframe width="495" height="315" src="https://www.youtube.com/embed/4OlGpS2LG_M?list=PLEsfXFp6DpzRcd-q4vR5qAgOZUuz8041S" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="col-sm-6">
+        <h1>Navbar example</h1>
+        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+        <p>To see the difference between static and fixed top navbars, just scroll.</p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+        </p>
+      </div>
+      {% endblock %}
+
+      {% block merablock %}
+      {% endblock %}
+      <!-- Main component for a primary marketing message or call to action -->
+     
+
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  
+  </body>
+</html>
